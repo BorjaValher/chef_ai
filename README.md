@@ -33,14 +33,14 @@ The project follows the **MVC** pattern:
 4. **Supabase Account:** A project with a "recipes" table
 📦 Installation & Setup
 1. **Clone the repository:**
-```bash
-git clone <your-repo-url>
+   ```bash
+   git clone <your-repo-url>
 cd chef_ai
 2. **Install required libraries:**
-```bash
-pip install supabase python-dotenv
+   ```bash
+   pip install supabase python-dotenv
 3. **Environment Configuration:**
 Create a .env file in the root directory and fill in your Supabase credentials:
-```bash
-SUPABASE_URL=[https://your-project-id.supabase.co](https://your-project-id.supabase.co)
-SUPABASE_KEY=your-anon-public-key
+   ```bash
+   SUPABASE_URL=[https://your-project-id.supabase.co](https://your-project-id.supabase.co)
+   SUPABASE_KEY=your-anon-public-key

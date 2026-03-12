@@ -4,7 +4,7 @@ A modular Python application that leverages Local LLMs (via Ollama) to generate 
 
 
 
-[Image of MVC software architecture pattern diagram]
+[Image of MVC software architecture pattern diagram] soon...
 
 
 ## 🚀 Features
@@ -31,14 +31,15 @@ The project follows the **MVC** pattern:
    ```bash
    ollama pull llama3.1
 4. **Supabase Account:** A project with a "recipes" table
-📦 Installation & Setup
+
+## 📦 Installation & Setup
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
-cd chef_ai
 2. **Install required libraries:**
    ```bash
    pip install supabase python-dotenv
+   
 3. **Environment Configuration:**
 Create a .env file in the root directory and fill in your Supabase credentials:
    ```bash

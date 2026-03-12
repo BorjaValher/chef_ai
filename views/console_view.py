@@ -1,3 +1,5 @@
+from .base_view import BaseView
+
 class ConsoleView:
     def show_menu(self):
         print("\n--- APLICACIÓN DE RECETAS CON IA ---")

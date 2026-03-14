@@ -4,17 +4,17 @@ A modular Python application that leverages Local LLMs (via Ollama) to generate 
 
 
 
-[Image of MVC software architecture pattern diagram] soon...
+![Chef AI MVC Architecture](assets/mvc_diagram.jpg)
 
 
 ## 🚀 Features
 
-- **AI-Powered Recipes:** Uses Ollama and Llama3.1 to generate recipes based on user-provided ingredients.
-- **Surprise Mode:** Let the AI decide the menu with a random recipe generation.
+- **Agentic AI Intelligence:** Uses Llama 3.1 with **Tool Calling** capabilities. The AI doesn't just chat; it decides when to structure and save recipes to the database.
+- **MVC Architecture:** Strict separation of concerns, making the code modular, testable, and scalable.
 - **Cloud Storage:** Integrated with Supabase API (HTTPS) for reliable data persistence, bypassing common database port restrictions.
 - **Local & Private:** AI processing happens locally on your machine.
 - **Robust Architecture:** Uses Abstract Base Classes (ABC) for the View layer, allowing for easy transitions between CLI and GUI in the future.
-- **Environment Safety:** Secure credential management using .env files.
+- **Error Resilience:** Professional error handling with state-feedback between Database, Agent, and UI.
 
 ## 🛠️ Architecture
 

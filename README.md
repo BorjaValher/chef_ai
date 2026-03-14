@@ -4,7 +4,7 @@ A modular Python application that leverages Local LLMs (via Ollama) to generate 
 
 
 
-![Chef AI MVC Architecture](assets/mvc_diagram.jpg)
+![Chef AI MVC Architecture](assets/MVC.jpeg)
 
 
 ## 🚀 Features
